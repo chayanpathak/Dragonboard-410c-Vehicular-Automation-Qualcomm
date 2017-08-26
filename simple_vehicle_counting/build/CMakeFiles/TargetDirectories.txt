@@ -1,0 +1,4 @@
+/home/linaro/simple_vehicle_counting/build/CMakeFiles/rebuild_cache.dir
+/home/linaro/simple_vehicle_counting/build/CMakeFiles/edit_cache.dir
+/home/linaro/simple_vehicle_counting/build/CMakeFiles/simple_vehicle_counting_bin.dir
+/home/linaro/simple_vehicle_counting/build/CMakeFiles/simple_vehicle_counting.dir
