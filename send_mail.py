@@ -1,0 +1,22 @@
+def send_mail(body):
+    import smtplib
+    fromaddr = 'suhascholleti4@gmail.com'
+    toaddrs  = 'chayanpathak2011@gmail.com'
+    msg = "\r\n".join([
+        "From: suhascholleti4@gmail.com",
+        "To: chayanpathak2011@gmail.com",
+        "Subject: Just a message",
+        "",
+        body
+    ])
+    username = 'suhascholleti4@gmail.com'
+    password = '12345678qwerty'
+    server = smtplib.SMTP('smtp.gmail.com:587')
+    server.ehlo()
+    server.starttls()
+    server.login(username,password)
+    server.sendmail(fromaddr, toaddrs, msg)
+    server.quit()
+
+#send_mail("My name is john doe. My car has crashed, my blood group is A+.\nEmergency Contact Name:xyz.\nPhone number:9552438037.\nHouse Location:No. 658, 1st main road,Washington.")
+
